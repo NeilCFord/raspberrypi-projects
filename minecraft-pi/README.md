@@ -17,4 +17,4 @@ A lot of the code featured here is based off the work of Martin O'Hanlon at [Stu
 
 **minecraft-bombs** - Martin O'Hanlon's exploding blocks code. [Original repository](https://github.com/martinohanlon/minecraft-bombs)
 
-**minecraft-cannon** - Martin O'Hanlon's cannon. Blow stuff up! [Original repository](https://github.com/martinohanlon/minecraft-cannon)https://github.com/martinohanlon/minecraft-cannon
+**minecraft-cannon** - Martin O'Hanlon's cannon. Blow stuff up! [Original repository](https://github.com/martinohanlon/minecraft-cannon)
