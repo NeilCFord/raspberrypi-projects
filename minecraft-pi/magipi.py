@@ -5,7 +5,7 @@ import time
 mc = minecraft.Minecraft.create()
 # mc.camera.setThirdPerson(entityId)
 
-mc.postToChat("kill")
+mc.postToChat("Welcome to Minecraft Pi!")
 time.sleep(5)
 
 playerPos = mc.player.getPos()
