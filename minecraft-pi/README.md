@@ -11,10 +11,10 @@ A lot of the code featured here is based off the work of Martin O'Hanlon at [Stu
 
 **free.py** - free the player from the above trap by replacing one wall with air.
 
-**magipi.py** - A simple demo of console messages and moving the player. As featured in [The MagPi magazine]http://www.themagpi.com/issue/issue-11/() Issue 11.
+**magipi.py** - A simple demo of console messages and moving the player. As featured in [The MagPi magazine](http://www.themagpi.com/issue/issue-11/) Issue 11.
 
 **Minecraft** - The minecraft python API folder. Included for ease of cloning.
 
 **minecraft-bombs** - Martin O'Hanlon's exploding blocks code. [Original repository](https://github.com/martinohanlon/minecraft-bombs)
 
-**minecraft-cannon** - Martin O'Hanlon's cannon. Blow stuff up! [Original repository](https://github.com/martinohanlon/minecraft-cannon)
+**minecraft-cannon** - Martin O'Hanlon's cannon. Blow stuff up! [Original repository](https://github.com/martinohanlon/minecraft-cannon)https://github.com/martinohanlon/minecraft-cannon
