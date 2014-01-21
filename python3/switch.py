@@ -47,13 +47,13 @@ while True:
             enable_led(False)
             led_pin = yellow
             enable_led(True)
-            print("red is OFF, yellow is ON")
+            print("yellow is ON")
             sleep(2)
 
             enable_led(False)
             led_pin = green
             enable_led(True)
-            print("yellow is OFF, green is ON")
+            print("green is ON")
             sleep(2)
 
 

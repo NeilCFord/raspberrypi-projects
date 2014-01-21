@@ -22,24 +22,25 @@ def enable_led(should_enable):
 		GPIO.output(led_pin, False)
 
 
-for n in range(10):
+for n in range(5):
         enable_led(False)
         led_pin = red
         enable_led(True)
         print ("red in ON")
         sleep(2)
-        
-        enable_led(False)
-        led_pin = green
-        enable_led(True)
-        print("red is OFF, green is ON")
-        sleep(2)
 
         enable_led(False)
         led_pin = yellow
         enable_led(True)
-        print("green is OFF, yellow is ON")
+        print("yellow is ON")
         sleep(2)
+        
+        enable_led(False)
+        led_pin = green
+        enable_led(True)
+        print("green is ON")
+        sleep(2)
+
 
 
 enable_led(False)
