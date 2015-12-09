@@ -3,14 +3,14 @@
 import explorerhat as eh
 import time
 
-eh.output.one.off()
+eh.output.two.off()
 time.sleep(0.5)
 
 while True:
-    eh.output.one.on()
+    eh.output.two.on()
     time.sleep(0.00001)
-    eh.output.one.off()
-    print eh.input.one.read()
-    print eh.input.one.read()
+    eh.output.two.off()
+    print eh.input.two.read()
+    print eh.input.two.read()
     print "****"
     time.sleep(1)
