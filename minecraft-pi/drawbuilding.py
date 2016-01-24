@@ -1,6 +1,7 @@
 #! /usr/bin/python
 from mcpi.minecraft import Minecraft
 from mcpi import block
+import random
 
 """ draw a building
 
