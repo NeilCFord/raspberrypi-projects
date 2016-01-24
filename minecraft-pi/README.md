@@ -17,8 +17,6 @@ A lot of the code featured here is based off the work of Martin O'Hanlon at [Stu
 
 **drawbuilding.py** - Draws a building 5 floors high with windows. Not sure where I got this from.
 
-**Minecraft** - The minecraft python API folder. Included for ease of cloning.
-
 **minecraft-bombs** - Martin O'Hanlon's exploding blocks code. [Original repository](https://github.com/martinohanlon/minecraft-bombs)
 
 **minecraft-cannon** - Martin O'Hanlon's cannon. Blow stuff up! [Original repository](https://github.com/martinohanlon/minecraft-cannon)
