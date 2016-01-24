@@ -1,8 +1,8 @@
-import minecraft.minecraft as minecraft
-import minecraft.block as block
+from mcpi.minecraft import Minecraft
+from mcpi import block
 import time
 
-mc = minecraft.Minecraft.create()
+mc = Minecraft.create()
 
 mc.postToChat("Hello Minecraft World")
 time.sleep(5)

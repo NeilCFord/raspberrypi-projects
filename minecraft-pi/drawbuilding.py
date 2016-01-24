@@ -1,8 +1,6 @@
 #! /usr/bin/python
-import minecraft.minecraft as minecraft
-import minecraft.block as block
-import server
-import random
+from mcpi.minecraft import Minecraft
+from mcpi import block
 
 """ draw a building
 
@@ -14,7 +12,7 @@ def drawBuilding( locx, locy, locz, floors, width, depth, floorheight, wallmater
     topz = locz+depth
     #draw building shell
     mc.setBlocks( locx, locy, locz, topx, topy, topz, wallmaterial )
-    mc.setBlocks( locx+1, locy+1, locz+1, topx-1, topy-1, topz-1, block.AIR )
+    mc.setBlocks( locx+1, locy+1, locz+1, topx-1, topy-1, topz-1, block.AIR.id )
     #draw floors
     if( floors > 1 ):
         for i in range( floors -1 ):
@@ -22,8 +20,8 @@ def drawBuilding( locx, locy, locz, floors, width, depth, floorheight, wallmater
             mc.setBlocks( locx+1, floorYloc, locz+1, topx-1, floorYloc, topz-1, floormaterial )
     #draw door
     doorloc = random.randint( 1, width-2 )
-    mc.setBlock( locx, locy+1, locz+doorloc, block.AIR )
-    mc.setBlock( locx, locy+2, locz+doorloc, block.AIR )
+    mc.setBlock( locx, locy+1, locz+doorloc, block.AIR.id )
+    mc.setBlock( locx, locy+2, locz+doorloc, block.AIR.id )
     #draw front windows
     if( floors > 1 ):
         for i in range( floors-1 ):
@@ -35,10 +33,10 @@ def drawBuilding( locx, locy, locz, floors, width, depth, floorheight, wallmater
         for i in range( floors-1 ):
             windowYloc = locy+2+( (floorheight+1)*(i+1) )
             for j in range( floorheight-1 ):
-                mc.setBlocks( locx+depth, windowYloc+j , locz+1, locx+depth, windowYloc+j, locz+(width-1), block.GLASS_PANE )
+                mc.setBlocks( locx+depth, windowYloc+j , locz+1, locx+depth, windowYloc+j, locz+(width-1), block.GLASS_PANE.id )
     #connect levels with ladder
     #mc.setBlocks( topx-1, locy+1, topz-1, topx-1, topy-1, topz-1, block.LADDER )
                 
 if __name__ == "__main__":
-    mc = minecraft.Minecraft.create( server.address )
-    drawBuilding( 0, 0, 0, 5, 5, 5, 3, block.STONE, block.WOOD_PLANKS )
+    mc = Minecraft.create()
+    drawBuilding( 0, 0, 0, 5, 5, 5, 3, block.STONE.id, block.WOOD_PLANKS.id )
