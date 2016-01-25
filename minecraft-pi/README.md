@@ -19,10 +19,10 @@ Newer examples are based on Craig Richardson's book, "Learn to Program with Mine
 
 **drawbuilding.py** - Draws a building 5 floors high with windows. Not sure where I got this from.
 
-**minecraft-bombs** - Martin O'Hanlon's exploding blocks code. [Original repository](https://github.com/martinohanlon/minecraft-bombs)
-
-**minecraft-cannon** - Martin O'Hanlon's cannon. Blow stuff up! [Original repository](https://github.com/martinohanlon/minecraft-cannon)
-
 **shelter.py** - builds a simple block shelter.
 
 **pool.py** - makes a swimming pool under the player's feet and then tells you you are underwater!
+
+**minecraft-bombs** - Martin O'Hanlon's exploding blocks code. [Original repository](https://github.com/martinohanlon/minecraft-bombs) *NOT UPDATED*
+
+**minecraft-cannon** - Martin O'Hanlon's cannon. Blow stuff up! [Original repository](https://github.com/martinohanlon/minecraft-cannon) *NOT UPDATED*
